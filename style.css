@@ -1,0 +1,379 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper{
+	width: 100%;
+	height: auto;
+	min-height: 300px;
+	padding: 0 0px;
+}
+
+.slide{
+	width: 100%;
+	height: 650px;
+	position: relative;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgb(0,0,0,0.8)),url(../images/bgempat.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.header{
+	position: relative;
+	padding: 60px 66px;
+}
+
+.header .logo{
+	float: left;
+}
+
+.header .menu{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+.menu ul li a{
+	display: block;
+	padding: 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: monospace;
+}
+
+.slideTitle{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+
+.slideTitle h1{
+	font-size: 45px;
+	text-align: center;
+}
+
+.slideTitle p{
+	font-size: 17px;
+	padding: 0 80px;
+	text-align: center;
+	font-family: monospace;
+}
+
+
+.content{
+	/*padding: 0 40px;*/
+}
+
+.content-title{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	padding: 35px 0;
+	float: left;
+}
+
+.content-title h2{
+	font-size: 38px;
+	font-family: monospace;
+	color: 	#6495ED;
+}
+
+.border span{
+	width: 9px;
+	height: 9px;
+	margin: 0 3px;
+	background-color: #9932CC;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+p.content-desc{
+	font-size: 16px;
+	color: #2F4F4F;
+	padding: 0 5px;
+	width: 60%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	font-family: monospace;
+	margin-left: 20%;
+}
+
+.skill-section{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	padding: 40px 0;
+}
+
+.skill-img{
+	width: 50%;
+	float: left;
+}
+
+.skill-img img{
+	width: 100%;
+}
+
+.skill-content{
+	width: 45%;
+	float: right;
+}
+
+h3.skill-title{
+	font-size: 28px;
+	font-family: monospace;
+	color: #6495ED;
+	font-weight: 500;
+	float: left;
+	width: 100%;
+}
+
+.skills{
+	width: 75%;
+	float: left;
+	padding-top: 2px;
+}
+
+.skills i{
+	color: #9932CC;
+	font-family: monospace;
+	clear: both;
+	float: left;
+	font-size: 18px;
+}
+
+.skills span{
+	width: 100%;
+	height: 23px;
+	margin-top: 7px;
+	border: 1px solid #6495ED;
+	display: inline-block;
+	float: left;
+}
+
+.skills span abbr{
+	width: 95%;
+	height: 23px;
+	background-color: #6495ED;
+	display: inline-block;
+}
+
+.skills.laravel span abbr{
+	width: 90%;
+}
+
+.skills.vue span abbr{
+	width: 80%;
+}
+
+.skills.php span abbr{
+	width: 85%;
+}
+
+.skills.java span abbr{
+	width: 90%;
+}
+
+.skills.kotlin span abbr{
+	width: 80%;
+}
+
+.skills.flutter span abbr{
+	width: 75%;
+}
+
+.about-content, .desk-img{
+	width: 100%;
+	float: left;
+	display: inline-block;
+	font-family: monospace;
+	color: #6495ED;
+	padding: 35px 0;
+}
+
+.about-desc{
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+.about-desc p{
+	padding-bottom: 10px;
+}
+
+.about-img{
+	width: 45%;
+	float:right;
+	display: inline-block;
+}
+
+.desk-img img{
+	width: 30%;
+}
+
+.desk-img img.deskbgempatimg{
+	margin: 0 4%;
+}
+
+.clearfix{}
+.column{
+	width: 30%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color: #2F4F4F;
+	font-family: monospace;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+.column.col2{
+	margin: 0 4%;
+
+}
+
+.column.col3{
+	float: right;
+}
+
+.column p{
+	padding-top: 10px;
+}
+
+.content.ourteam{
+	padding-top: 35px;
+	clear: left;
+}
+
+.tm,.employer{
+	display: inline-block;
+	width: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding: 25px 15px 0; 
+	
+}
+
+.employer{
+	padding:0 35px 15px;
+}
+
+.employer.johanne.tesa.qy{
+	padding-left: 85px;
+}
+
+.employer-image{
+	width: 15%;
+	float: left;
+}
+
+.employer-image img{
+	width: 100%;
+}
+
+.employer-detail{
+	width: 70%;
+	float: left;
+	padding-left: 50px;
+	padding-top: 15px;
+}
+
+.employer-detail h3{
+	padding-bottom: 10px;
+}
+
+.employer-detail h5{
+	padding-bottom: 10px;
+}
+
+.employer-detail p{
+	font-weight: normal;
+}
+
+.employer-detail.agatha.irvan{
+	padding-left: 0px;
+	padding-right: 25px;
+}
+
+.portofolio{
+	padding: 0 35px;
+}
+
+.portofolio img{
+	margin: 28px;
+}
+
+.sertifications{
+	padding: 0 35px;
+}
+
+.sertifications img{
+	margin: 28px;
+}
+
+form.contactform{
+	padding: 0 45px 15px;
+}
+
+.txtfield,.message,.submit{
+	font-family: monospace;
+}
+
+.txtfield{
+	width: 48%;
+	height: 35px;
+	padding: 0 5px;
+	border: 1px solid #333333;
+	font-size: 16px;
+	font-style: italic;
+}
+
+.txtfield.email{
+	float: right;
+}
+
+.message{
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	margin-top: 10px;
+	border: 1px solid #333333;
+	font-style: italic;
+}
+
+.submit{
+	width: 150px;
+	height: 35px;
+	background-color: #9aabcf;
+	color: #fff;
+	border:1px solid;
+	margin-top: 15px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.footer{
+	display: inline-block;
+	width: 100%;
+	padding: 25 0px 15px;
+	text-align: center;
+	box-sizing: border-box;
+	background-color: #9aabcf;
+	color: #fff;
+}
+
+.footer p{
+	padding-bottom: 10px;
+	font-size: 18px;
+}
